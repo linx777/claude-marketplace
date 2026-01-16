@@ -1,10 +1,8 @@
 {
-  "$schema": "https://schema.claude.com/marketplace/v1",
   "name": "claude-code-marketplace",
-  "displayName": "Claude Code Marketplace",
   "version": "1.0.0",
   "description": "A marketplace for Claude Code skills and plugins",
-  "author": "linx777",
+  "owner": "linx777",
   "homepage": "https://github.com/linx777/claude-marketplace",
   "repository": {
     "type": "git",
@@ -12,13 +10,14 @@
   },
   "plugins": [
     {
-      "id": "review-plugin",
       "name": "review-plugin",
-      "displayName": "Review Plugin",
-      "path": "plugins/review-plugin",
       "version": "1.0.0",
       "description": "Automated code review with best practices checking",
-      "author": "linx777",
+      "author": {
+        "name": "linx777",
+        "url": "https://github.com/linx777"
+      },
+      "source": "plugins/review-plugin",
       "tags": ["code-review", "quality", "best-practices"],
       "license": "MIT"
     }
