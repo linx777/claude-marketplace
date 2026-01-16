@@ -52,7 +52,7 @@ Review a pull request with comprehensive feedback.
 cp -r plugins/review-plugin ~/.claude/plugins/
 
 # Or directly
-git clone https://github.com/YOUR_USERNAME/claude-marketplace.git
+git clone https://github.com/linx777/claude-marketplace.git
 cp -r claude-marketplace/plugins/review-plugin ~/.claude/plugins/
 ```
 

@@ -15,7 +15,7 @@ To install a skill from this marketplace, use the Claude Code marketplace comman
 
 ```bash
 # Clone the marketplace repository
-git clone <your-github-url> claude-marketplace
+git clone https://github.com/linx777/claude-marketplace.git
 cd claude-marketplace
 
 # Install a specific skill

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A marketplace for Claude Code skills and plugins",
   "type": "marketplace",
-  "repository": "https://github.com/YOUR_USERNAME/claude-marketplace",
+  "repository": "https://github.com/linx777/claude-marketplace",
   "plugins": [
     {
       "name": "review-plugin",

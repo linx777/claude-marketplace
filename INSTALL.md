@@ -6,7 +6,7 @@
 
 ```bash
 # Clone the marketplace
-git clone https://github.com/YOUR_USERNAME/claude-marketplace.git
+git clone https://github.com/linx777/claude-marketplace.git
 cd claude-marketplace
 
 # Install a specific skill
