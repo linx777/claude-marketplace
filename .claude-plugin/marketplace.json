@@ -1,25 +1,23 @@
 {
   "name": "claude-code-marketplace",
-  "version": "1.0.0",
-  "description": "A marketplace for Claude Code skills and plugins",
-  "owner": "linx777",
-  "homepage": "https://github.com/linx777/claude-marketplace",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/linx777/claude-marketplace.git"
+  "owner": {
+    "name": "linx777"
+  },
+  "metadata": {
+    "description": "A marketplace for Claude Code skills and plugins",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "review-plugin",
-      "version": "1.0.0",
+      "source": "./plugins/review-plugin",
       "description": "Automated code review with best practices checking",
+      "version": "1.0.0",
       "author": {
-        "name": "linx777",
-        "url": "https://github.com/linx777"
+        "name": "linx777"
       },
-      "source": "plugins/review-plugin",
-      "tags": ["code-review", "quality", "best-practices"],
-      "license": "MIT"
+      "keywords": ["code-review", "quality", "best-practices", "review", "pr-review"],
+      "category": "productivity"
     }
   ]
 }
