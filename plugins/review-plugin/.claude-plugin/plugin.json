@@ -1,0 +1,22 @@
+{
+  "name": "review-plugin",
+  "version": "1.0.0",
+  "description": "Automated code review with best practices checking",
+  "author": "Your Name",
+  "type": "skill",
+  "commands": [
+    {
+      "name": "review",
+      "description": "Review code for best practices, bugs, and improvements",
+      "file": "commands/review.md"
+    },
+    {
+      "name": "review-pr",
+      "description": "Review a pull request",
+      "file": "commands/review-pr.md"
+    }
+  ],
+  "tags": ["code-review", "quality", "best-practices"],
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_USERNAME/claude-marketplace/tree/main/plugins/review-plugin"
+}
